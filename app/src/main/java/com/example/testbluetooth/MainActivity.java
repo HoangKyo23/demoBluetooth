@@ -189,6 +189,7 @@ public class MainActivity extends Activity {
             private boolean result = false;
 
             
+            @SuppressLint("MissingPermission")
             @Override
             public void run() {
                 if (adapter.isDiscovering()) {
